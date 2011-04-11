@@ -5,9 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
 	<title>Articles</title>
-	<link rel="stylesheet"  href="http://code.jquery.com/mobile/1.0a4/jquery.mobile-1.0a4.min.css" />
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
+<!--
 	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0a4/jquery.mobile-1.0a4.min.js"></script>
+	<link rel="stylesheet"  href="http://code.jquery.com/mobile/1.0a4/jquery.mobile-1.0a4.min.css" />
+-->
+	<script type="text/javascript" src="jquery-mobile/jquery.mobile-1.0beta-pre.min.js"></script>
+	<link rel="stylesheet"  href="jquery-mobile/jquery.mobile-1.0beta-pre.min.css" />
 	<style type="text/css">
 		#article-template { display: none; }
 		#articles-loader .message-finished { display: none; }
@@ -105,6 +109,7 @@
 
 	<script type="text/javascript">$('#articles-loader').bind('inview', onLoaderVisible);</script>
 	<script type="text/javascript" src="jquery.inview.js"></script>
+
 </body>
 
 </html>
